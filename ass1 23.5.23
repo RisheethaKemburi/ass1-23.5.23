@@ -1,0 +1,17 @@
+#include<stdio.h>
+main(){
+	int i,n;
+	int age;
+	printf("enter the persons");
+	scanf("%d",&n);
+	for(i=1;i<n;i++)
+	{
+		scanf("\n%d",&age);
+		if(age<5)
+		printf("\nbaby age");
+		else if(age<18)
+		printf("\nschooling age");
+		else
+		printf("\nadult age");
+	}
+}
